@@ -58,7 +58,18 @@ Then you will see all the files downloaded:
 
 Make sure your directory has a structure like this:
 
-![Screenshot 2024-11-08 at 9 36 51 PM](https://github.com/user-attachments/assets/18990259-cfdf-4f3f-828d-281d00d9673b)
+datasets/
+└── coco/
+    ├── annotations/
+    │   ├── instances_train2017.json
+    │   ├── instances_val2017.json
+    │   ├── panoptic_train2017.json
+    │   ├── panoptic_val2017.json
+    ├── panoptic_train2017/
+    ├── panoptic_val2017/
+    ├── train2017/
+    └── val2017/
+
 
 ---
 ## Clone the repository
