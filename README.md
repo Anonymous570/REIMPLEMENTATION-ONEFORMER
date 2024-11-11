@@ -58,17 +58,19 @@ Then you will see all the files downloaded:
 
 Make sure your directory has a structure like this:
 
-datasets/
-└── coco/
-    ├── annotations/
-    │   ├── instances_train2017.json
-    │   ├── instances_val2017.json
-    │   ├── panoptic_train2017.json
-    │   ├── panoptic_val2017.json
-    ├── panoptic_train2017/
-    ├── panoptic_val2017/
-    ├── train2017/
-    └── val2017/
+datasets/<br>
+└── coco/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── annotations/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── instances_train2017.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── instances_val2017.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── panoptic_train2017.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── panoptic_val2017.json<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── panoptic_train2017/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── panoptic_val2017/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── train2017/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── val2017/<br>
+
+
 
 
 ---
